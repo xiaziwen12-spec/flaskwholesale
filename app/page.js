@@ -2,11 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import Cta from "@/components/Cta";
 import { ProductGrid } from "@/components/ProductCard";
-import { categories, products } from "@/lib/site";
+import { categories, getProducts } from "@/lib/site";
 
 export const revalidate = 86400;
 
-export default function Home() {
+export default async function Home() {
+  const products = await getProducts();
   const hero = [products[2], products[48], products[87]];
   return <>
     <section className="hero"><div className="container hero-grid"><div><span className="eyebrow">Factory-direct · Low MOQ · Global delivery</span><h1>Custom drinkware made for growing brands.</h1><p>FlaskWholesale manufactures stainless steel bottles, tumblers, mugs, shakers, jugs and can coolers with logo, colour, packaging and OEM/ODM support.</p><div className="actions"><Link className="button" href="/contact-us">Request a quote</Link><Link className="button light" href="/products">Explore products</Link></div></div><div className="hero-collage">
