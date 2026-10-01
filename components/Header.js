@@ -39,7 +39,7 @@ const menus = [
 export default function Header() {
   const [open, setOpen] = useState(false);
   return <>
-    <div className="topbar"><div className="container"><span>OEM & ODM stainless steel drinkware manufacturer</span><div className="topbar-links"><a href={site.whatsapp}>WhatsApp {site.phone}</a><a href={`mailto:${site.email}`}>{site.email}</a></div></div></div>
+    <div className="topbar"><div className="container"><span>OEM & ODM stainless steel drinkware manufacturer</span><div className="topbar-links"><a href={site.whatsapp} target="_blank" rel="noopener noreferrer">WhatsApp {site.phone}</a><a href={`mailto:${site.email}`}>{site.email}</a></div></div></div>
     <header className="header"><div className="container nav">
       <Link className="brand" href="/"><span className="brand-mark">F</span><span>FlaskWholesale</span></Link>
       <button className="menu-button" aria-label="Open menu" aria-expanded={open} onClick={() => setOpen(!open)}>☰</button>

@@ -136,7 +136,8 @@ a{color:inherit;text-decoration:none}
 .footer h4{margin-top:0}
 .footer-links{display:grid;gap:9px}
 .copyright{border-top:1px solid #2d3a36;margin-top:48px;padding-top:22px;color:#83918c;font-size:13px}
-.whatsapp{position:fixed;right:22px;bottom:22px;z-index:55;background:#25d366;color:#082f18;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;font-weight:900;box-shadow:0 10px 30px rgba(0,0,0,.2)}
+.whatsapp{position:fixed;right:22px;bottom:22px;z-index:55;background:#25d366;color:#fff;height:58px;padding:0 21px;border-radius:999px;display:flex;align-items:center;justify-content:center;gap:9px;font-weight:850;box-shadow:0 10px 30px rgba(0,0,0,.2)}
+.whatsapp svg{width:25px;height:25px;flex:none}
 .empty{padding:50px;border:1px dashed var(--line);border-radius:18px;text-align:center;color:var(--muted)}
 @media(max-width:900px){.menu-button{display:block}
 .menu{display:none;position:absolute;left:20px;right:20px;top:69px;background:#fff;padding:22px;border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);flex-direction:column;align-items:flex-start}
