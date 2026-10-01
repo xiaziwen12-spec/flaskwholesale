@@ -5,6 +5,7 @@ const nextConfig = {
   async redirects() {
     return [
       { source: "/product", destination: "/products", permanent: true },
+      { source: "/product/page/:page", destination: "/products/page/:page", permanent: true },
       { source: "/product-category/water-bottle", destination: "/product-category/water-bottles", permanent: true },
       { source: "/product-category/stainless-steel-tumblers", destination: "/product-category/tumblers-mugs", permanent: true },
       { source: "/cases", destination: "/case", permanent: true },

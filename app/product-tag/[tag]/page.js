@@ -18,6 +18,6 @@ export default async function ProductTagPage({ params }) {
   const { tag: key } = await params;
   const category = featureCategories[key];
   if (!category) notFound();
-  const products = await getTagProducts(key);
+  const products = await getTagProducts(category.queryTag || key);
   return <><PageHero eyebrow="Feature category" title={category.title} copy={category.copy} crumb={category.name} /><section className="section"><div className="container"><div className="section-head"><div><span className="eyebrow">{products.length} available styles</span><h2>Choose a product for your project.</h2></div><p>Ask about stock colours, logo methods, packaging and shipping to your destination.</p></div><ProductGrid products={products} /></div></section><Cta /></>;
 }

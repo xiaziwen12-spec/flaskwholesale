@@ -10,7 +10,7 @@ const menus = [
     href: "/products",
     columns: [
       { title: "Product Categories", links: [["Water Bottles", "/product-category/water-bottles"], ["Tumblers and Mugs", "/product-category/tumblers-mugs"], ["Shaker Bottles", "/product-category/shaker-bottles"], ["Water Jugs", "/product-category/water-jugs"], ["Can Coolers", "/product-category/can-coolers"]] },
-      { title: "Feature Categories", links: [["Dual-Sip Lid Bottles", "/product-tag/dual-sip-lid-insulated-bottles"], ["Rhinestone Bottles", "/product-tag/rhinestone-water-bottle"], ["Soccer Bottles", "/product-tag/soccer-insulated-water-bottles"], ["Smart Bottles", "/product-tag/insulated-smart-water-bottle"], ["Bamboo Lid Bottles", "/product-tag/wooden-bamboo-lid-insulated-bottles"], ["Spout Lid Bottles", "/product-tag/spout-lid-water-bottle"], ["Coffee Shop Tumblers", "/product-tag/coffee-tumblers-for-coffee-shops"], ["Christmas Cups", "/product-tag/christmas-insulated-cups"]] },
+      { title: "Feature Categories", links: [["Dual-Function Lid Bottles", "/product-tag/freesip-insulated-bottles"], ["Rhinestone Bottles", "/product-tag/rhinestone-water-bottle"], ["Soccer Bottles", "/product-tag/world-cup-custom-insulated-bottles"], ["Smart Bottles", "/product-tag/insulated-smart-water-bottle"], ["Bamboo Lid Bottles", "/product-tag/wooden-bamboo-lid-insulated-bottles"], ["Spout Lid Bottles", "/product-tag/spout-lid-water-bottle"], ["Coffee Shop Tumblers", "/product-tag/coffee-tumblers-for-coffee-shops"], ["Christmas Cups", "/product-tag/christmas-insulated-cups"]] },
     ],
   },
   {
@@ -39,7 +39,7 @@ const menus = [
 export default function Header() {
   const [open, setOpen] = useState(false);
   return <>
-    <div className="topbar"><div className="container"><span>OEM & ODM stainless steel drinkware manufacturer</span><a href={site.whatsapp}>WhatsApp {site.phone}</a></div></div>
+    <div className="topbar"><div className="container"><span>OEM & ODM stainless steel drinkware manufacturer</span><div className="topbar-links"><a href={site.whatsapp}>WhatsApp {site.phone}</a><a href={`mailto:${site.email}`}>{site.email}</a></div></div></div>
     <header className="header"><div className="container nav">
       <Link className="brand" href="/"><span className="brand-mark">F</span><span>FlaskWholesale</span></Link>
       <button className="menu-button" aria-label="Open menu" aria-expanded={open} onClick={() => setOpen(!open)}>☰</button>
