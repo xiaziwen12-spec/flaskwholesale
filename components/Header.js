@@ -15,18 +15,18 @@ const menus = [
   },
   {
     label: "Custom Solutions",
-    href: "/custom-solutions",
+    href: "/stainless-steel-drinkware-custom-solutions",
     columns: [
-      { title: "Branding", links: [["Private Label", "/custom-solutions/private-label"], ["Custom Logo", "/custom-solutions/custom-logo"], ["UV Printing", "/custom-solutions/uv-printing"], ["Silkscreen Printing", "/custom-solutions/silkscreen-printing"], ["Laser Engraving", "/custom-solutions/laser-engraving"]] },
-      { title: "Product Development", links: [["Surface Finishing", "/custom-solutions/surface-finishing"], ["Spray Painting", "/custom-solutions/spray-painting"], ["Powder Coating", "/custom-solutions/powder-coating"], ["Rhinestone Decoration", "/custom-solutions/rhinestone-decoration"], ["Custom Mould", "/custom-solutions/custom-mold"], ["Custom Colour", "/custom-solutions/custom-color"], ["Packaging Solutions", "/custom-solutions/packaging-solutions"]] },
+      { title: "Branding", links: [["Private Label", "/stainless-steel-drinkware-custom-solutions/private-label-water-bottles"], ["Custom Logo", "/stainless-steel-drinkware-custom-solutions/custom-logo"], ["UV Printing", "/stainless-steel-drinkware-custom-solutions/custom-logo/uv-printing-bottle-logo"], ["Silkscreen Printing", "/stainless-steel-drinkware-custom-solutions/custom-logo/silkscreen-logo-printing"], ["Laser Engraving", "/stainless-steel-drinkware-custom-solutions/custom-logo/laser-logo-engraving"]] },
+      { title: "Product Development", links: [["Surface Finishing", "/stainless-steel-drinkware-custom-solutions/surface-finishing-options"], ["Spray Painting", "/stainless-steel-drinkware-custom-solutions/surface-finishing-options/spray-painting"], ["Powder Coating", "/stainless-steel-drinkware-custom-solutions/surface-finishing-options/powder-coating"], ["Rhinestone Decoration", "/stainless-steel-drinkware-custom-solutions/surface-finishing-options/rhinestone-decoration"], ["Custom Mould", "/stainless-steel-drinkware-custom-solutions/custom-drinkware-mold"], ["Custom Colour", "/stainless-steel-drinkware-custom-solutions/custom-color"], ["Packaging Solutions", "/stainless-steel-drinkware-custom-solutions/packaging-solusions"]] },
     ],
   },
   {
     label: "About Us",
     href: "/about-us",
     columns: [
-      { title: "Company", links: [["About Us", "/about-us"], ["Payment Terms", "/payment-terms"], ["Shipping & Delivery", "/shipping-and-delivery"], ["Cases", "/cases"]] },
-      { title: "Manufacturing Process", links: [["Process Overview", "/manufacturing-process"], ["Material Preparation", "/material-preparation"], ["Bottle Body Forming", "/bottle-body-forming"], ["Welding Process", "/welding-process"], ["Vacuum Extraction", "/vacuum-extraction"], ["Electrolytic Cleaning", "/electrolytic-cleaning"], ["Polishing & Colouring", "/polishing-and-coloring"], ["Lid Injection Moulding", "/lid-injection-molding"]] },
+      { title: "Company", links: [["About Us", "/about-us"], ["Payment Terms", "/payment-terms"], ["Shipping & Delivery", "/shipping-and-delivery"], ["Cases", "/case"]] },
+      { title: "Manufacturing Process", links: [["Process Overview", "/insulated-bottle-manufacturing-process"], ["Material Preparation", "/insulated-bottle-manufacturing-process/material-preparation"], ["Bottle Body Forming", "/insulated-bottle-manufacturing-process/bottle-body-forming"], ["Welding Process", "/insulated-bottle-manufacturing-process/welding-process"], ["Vacuum Extraction", "/insulated-bottle-manufacturing-process/vacuum-extraction"], ["Electrolytic Cleaning", "/insulated-bottle-manufacturing-process/electrolytic-cleaning"], ["Polishing & Colouring", "/insulated-bottle-manufacturing-process/polishing-and-coloring"], ["Lid Injection Moulding", "/insulated-bottle-manufacturing-process/lid-injection-molding"]] },
     ],
   },
   {
